@@ -1,0 +1,1002 @@
+/* line 9, D:/proj/idea/watch/sass/style.sass */
+body {
+  font-family: "Conv_PFDinTextCondPro-Regular", Sans-serif;
+  background: white;
+  min-width: 1200px;
+  min-height: 200px;
+  color: #1e1e1e;
+}
+
+/* line 16, D:/proj/idea/watch/sass/style.sass */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* line 22, D:/proj/idea/watch/sass/style.sass */
+.wrapper, .top .wrapper_top, .why .wrapper_why, .work .wrapper_work {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 27, D:/proj/idea/watch/sass/style.sass */
+.fl {
+  float: left;
+}
+
+/* line 30, D:/proj/idea/watch/sass/style.sass */
+.fr {
+  float: right;
+}
+
+/* line 33, D:/proj/idea/watch/sass/style.sass */
+.cb {
+  clear: both;
+}
+
+/* line 36, D:/proj/idea/watch/sass/style.sass */
+input.error, textarea.error {
+  box-shadow: 0 0 5px red !important;
+}
+
+/* line 39, D:/proj/idea/watch/sass/style.sass */
+label.error {
+  display: none !important;
+}
+
+/* line 47, D:/proj/idea/watch/sass/style.sass */
+header, footer {
+  height: 70px;
+  background: url(../img/nav_bg.png) center no-repeat;
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+}
+/* line 55, D:/proj/idea/watch/sass/style.sass */
+header nav, footer nav {
+  float: left;
+  margin: 5px 40px 0;
+}
+/* line 59, D:/proj/idea/watch/sass/style.sass */
+header nav ul, footer nav ul {
+  font-size: 18px;
+  padding: 0;
+  font-weight: normal;
+  font-family: "conv_pfdintextcondpro-italic";
+}
+/* line 64, D:/proj/idea/watch/sass/style.sass */
+header nav ul li, footer nav ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 12px;
+  color: #1e1e1e;
+}
+/* line 70, D:/proj/idea/watch/sass/style.sass */
+header nav ul a, footer nav ul a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 12px;
+}
+/* line 74, D:/proj/idea/watch/sass/style.sass */
+header nav ul a:hover, footer nav ul a:hover {
+  text-decoration: underline;
+}
+/* line 76, D:/proj/idea/watch/sass/style.sass */
+header nav ul a.active, footer nav ul a.active {
+  text-decoration: underline;
+}
+/* line 78, D:/proj/idea/watch/sass/style.sass */
+header .addr, footer .addr {
+  text-align: right;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  padding-right: 40px;
+}
+/* line 83, D:/proj/idea/watch/sass/style.sass */
+header .addr h2, footer .addr h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  font-family: "conv_pfdintextcondpro-thin";
+}
+/* line 88, D:/proj/idea/watch/sass/style.sass */
+header .addr h2 span, footer .addr h2 span {
+  font-weight: bold;
+  font-family: "Conv_PFDinTextCondPro-Bold";
+}
+
+/* line 93, D:/proj/idea/watch/sass/style.sass */
+.top {
+  background: url(../img/header_bg.png) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 740px;
+}
+/* line 94, D:/proj/idea/watch/sass/style.sass */
+.top .wrapper_top {
+  width: 980px;
+}
+/* line 97, D:/proj/idea/watch/sass/style.sass */
+.top .top_caption {
+  background: url(../img/top_bg.png) center no-repeat;
+  height: 240px;
+  padding-top: 100px;
+}
+/* line 101, D:/proj/idea/watch/sass/style.sass */
+.top .top_caption h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  color: white;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+}
+/* line 110, D:/proj/idea/watch/sass/style.sass */
+.top .top_caption h3 {
+  font-size: 72px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  line-height: 0.9em;
+  font-family: "Conv_PFDinTextCondPro-Regular", Sans-serif;
+}
+/* line 119, D:/proj/idea/watch/sass/style.sass */
+.top .top_video {
+  margin-top: 40px;
+  position: relative;
+  margin-left: -50px;
+}
+/* line 123, D:/proj/idea/watch/sass/style.sass */
+.top .top_video .inner_img {
+  position: absolute;
+  top: 90px;
+  left: 190px;
+}
+/* line 131, D:/proj/idea/watch/sass/style.sass */
+.top .buy {
+  margin-top: -20px;
+  position: relative;
+}
+/* line 134, D:/proj/idea/watch/sass/style.sass */
+.top .buy span {
+  padding-top: 50px;
+  display: inline-block;
+  text-align: center;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #1d1d1d;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffbd00), color-stop(100%, #fff5af));
+  background: -webkit-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: -moz-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: -o-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  width: 200px;
+  height: 200px;
+  font-size: 60px;
+}
+/* line 145, D:/proj/idea/watch/sass/style.sass */
+.top .buy span p {
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  font-size: 24px;
+  margin-top: -20px;
+}
+/* line 149, D:/proj/idea/watch/sass/style.sass */
+.top .buy .watch {
+  position: absolute;
+  right: 290px;
+  top: 50px;
+}
+/* line 153, D:/proj/idea/watch/sass/style.sass */
+.top .buy .top_text {
+  background: url(../img/top_shape.png) center no-repeat;
+  height: 200px;
+  width: 420px;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  padding-right: 45px;
+  padding-top: 60px;
+  padding-left: 140px;
+  margin-top: -45px;
+  margin-left: -190px;
+}
+/* line 166, D:/proj/idea/watch/sass/style.sass */
+.top .buy a {
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  -moz-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  background: #bd0909;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #bd0931), color-stop(20%, #bd0909), color-stop(64.99%, #ff4b59), color-stop(100%, #f9a9bd));
+  background: -webkit-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -moz-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -o-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 260px;
+  height: 80px;
+  padding-top: 17px;
+  position: absolute;
+  top: 370px;
+  right: 50px;
+}
+/* line 184, D:/proj/idea/watch/sass/style.sass */
+.top .buy a:hover {
+  background: #ef4444;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb0606), color-stop(100%, #ef4444));
+  background: -webkit-linear-gradient(top, #cb0606, #ef4444);
+  background: -moz-linear-gradient(top, #cb0606, #ef4444);
+  background: -o-linear-gradient(top, #cb0606, #ef4444);
+  background: linear-gradient(top, #cb0606, #ef4444);
+}
+/* line 191, D:/proj/idea/watch/sass/style.sass */
+.top .form {
+  background: url(../img/bg_form.png) center no-repeat;
+  width: 380px;
+  height: 520px;
+}
+/* line 196, D:/proj/idea/watch/sass/style.sass */
+.top .form .caption {
+  padding-top: 15px;
+  margin: 20px auto auto;
+  background: #fadd2d;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff5ae), color-stop(100%, #fadd2d));
+  background: -webkit-linear-gradient(top, #fff5ae, #fadd2d);
+  background: -moz-linear-gradient(top, #fff5ae, #fadd2d);
+  background: -o-linear-gradient(top, #fff5ae, #fadd2d);
+  background: linear-gradient(top, #fff5ae, #fadd2d);
+  width: 340px;
+  height: 210px;
+  border-bottom: 5px solid #f7cd17;
+}
+/* line 205, D:/proj/idea/watch/sass/style.sass */
+.top .form .caption h3 {
+  margin-top: 10px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Conv_PFDinTextCondPro-Bold", Sans-serif;
+  margin-bottom: 10px;
+  line-height: 0.9em;
+  color: black;
+}
+/* line 214, D:/proj/idea/watch/sass/style.sass */
+.top .form .caption h3 span {
+  font-size: 18px;
+  font-family: "Conv_PFDinTextCondPro-Regular", Sans-serif;
+}
+/* line 217, D:/proj/idea/watch/sass/style.sass */
+.top .form h4 {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  display: inherit;
+  line-height: 1.6em;
+}
+/* line 226, D:/proj/idea/watch/sass/style.sass */
+.top .form h4.left {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/* line 230, D:/proj/idea/watch/sass/style.sass */
+.top .form h4 span {
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  padding-left: 27px;
+}
+
+/* line 237, D:/proj/idea/watch/sass/style.sass */
+.flip-clock-dot {
+  visibility: hidden;
+}
+
+/* line 240, D:/proj/idea/watch/sass/style.sass */
+.flip-clock-wrapper ul li a div div.inn {
+  background-color: #fce451;
+}
+
+/* line 244, D:/proj/idea/watch/sass/style.sass */
+.clock {
+  -webkit-transform: scale(0.7, 0.7);
+  -moz-transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  -o-transform: scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
+  padding-top: 0px;
+  margin-left: -68px;
+  width: 561px;
+  margin-top: -15px;
+}
+
+/* line 252, D:/proj/idea/watch/sass/style.sass */
+span .flip-clock-label {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  left: 40px;
+  top: 108px !important;
+}
+
+/* line 260, D:/proj/idea/watch/sass/style.sass */
+.flip-clock-wrapper {
+  font: inherit;
+}
+/* line 262, D:/proj/idea/watch/sass/style.sass */
+.flip-clock-wrapper ul {
+  margin: 1px;
+}
+
+/* line 265, D:/proj/idea/watch/sass/style.sass */
+.frm {
+  height: 270px;
+  width: 340px;
+  background: url(../img/form_bottom_bg.png);
+  margin: auto;
+}
+/* line 271, D:/proj/idea/watch/sass/style.sass */
+.frm form {
+  padding-top: 18px;
+}
+/* line 274, D:/proj/idea/watch/sass/style.sass */
+.frm form input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 14px;
+  width: 277px;
+  height: 58px;
+  background: white;
+  display: block;
+  margin: auto auto 15px;
+  border: none;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8);
+}
+/* line 284, D:/proj/idea/watch/sass/style.sass */
+.frm form .button {
+  font-family: "Conv_pfdintextcondpro-light", Sans-serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  width: 300px;
+  height: 80px;
+  background: #cb0606;
+  color: white;
+  display: block;
+  margin: 20px auto auto 20px;
+  font-size: 30px;
+  border: none;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  -moz-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #bd0931), color-stop(20%, #bd0909), color-stop(64.99%, #ff4b59), color-stop(100%, #f9a9bd));
+  background: -webkit-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -moz-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -o-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+}
+/* line 302, D:/proj/idea/watch/sass/style.sass */
+.frm .button:hover {
+  background: #ef4444;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb0606), color-stop(100%, #ef4444));
+  background: -webkit-linear-gradient(top, #cb0606, #ef4444);
+  background: -moz-linear-gradient(top, #cb0606, #ef4444);
+  background: -o-linear-gradient(top, #cb0606, #ef4444);
+  background: linear-gradient(top, #cb0606, #ef4444);
+}
+
+/* line 306, D:/proj/idea/watch/sass/style.sass */
+.why {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 307, D:/proj/idea/watch/sass/style.sass */
+.why .wrapper_why {
+  width: 620px;
+}
+/* line 314, D:/proj/idea/watch/sass/style.sass */
+.why .item {
+  width: 160px;
+  margin-right: 70px;
+}
+/* line 317, D:/proj/idea/watch/sass/style.sass */
+.why .item:last-child {
+  margin-right: 0;
+}
+/* line 319, D:/proj/idea/watch/sass/style.sass */
+.why .item h4 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px;
+  line-height: 0.9em;
+}
+
+/* line 329, D:/proj/idea/watch/sass/style.sass */
+.block {
+  background: url(../img/block_bg.png) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 850px;
+  margin-top: -40px;
+}
+/* line 334, D:/proj/idea/watch/sass/style.sass */
+.block h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  color: white;
+}
+/* line 343, D:/proj/idea/watch/sass/style.sass */
+.block h3 {
+  font-size: 72px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  line-height: 0.9em;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  margin: 85px 0 0;
+}
+/* line 352, D:/proj/idea/watch/sass/style.sass */
+.block .watch {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+/* line 356, D:/proj/idea/watch/sass/style.sass */
+.block .watch img {
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  z-index: 2;
+}
+/* line 361, D:/proj/idea/watch/sass/style.sass */
+.block .watch span {
+  padding-top: 50px;
+  display: inline-block;
+  text-align: center;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #1d1d1d;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffbd00), color-stop(100%, #fff5af));
+  background: -webkit-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: -moz-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: -o-linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  background: linear-gradient(bottom, #ffbd00 0%, #fff5af 100%);
+  width: 200px;
+  height: 200px;
+  font-size: 60px;
+  position: absolute;
+  top: 144px;
+  left: 190px;
+  z-index: 1;
+}
+/* line 376, D:/proj/idea/watch/sass/style.sass */
+.block .watch span p {
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  font-size: 24px;
+  margin-top: -20px;
+}
+/* line 380, D:/proj/idea/watch/sass/style.sass */
+.block .watch .text {
+  position: absolute;
+  bottom: -15px;
+  left: -45px;
+}
+/* line 384, D:/proj/idea/watch/sass/style.sass */
+.block .watch .text h3 {
+  font-size: 18px;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  margin: 0;
+  text-align: left;
+}
+/* line 389, D:/proj/idea/watch/sass/style.sass */
+.block .watch .text h4 {
+  font-size: 30px;
+  font-family: "Conv_PFDinTextCondPro-Bold", Sans-serif;
+  color: white;
+  margin: 0;
+}
+/* line 394, D:/proj/idea/watch/sass/style.sass */
+.block .form {
+  background: url(../img/bg_form.png) center no-repeat;
+  width: 380px;
+  height: 520px;
+}
+/* line 399, D:/proj/idea/watch/sass/style.sass */
+.block .form .caption {
+  padding-top: 15px;
+  margin: 20px auto auto;
+  background: url(../img/form_top_bg.png);
+  width: 340px;
+  height: 210px;
+}
+/* line 406, D:/proj/idea/watch/sass/style.sass */
+.block .form .caption h3 {
+  margin-top: 10px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Conv_PFDinTextCondPro-Bold", Sans-serif;
+  margin-bottom: 10px;
+  line-height: 0.9em;
+  color: white;
+}
+/* line 415, D:/proj/idea/watch/sass/style.sass */
+.block .form .caption h3 span {
+  font-size: 18px;
+  font-family: "Conv_pfdintextcondpro-light", Sans-serif;
+}
+/* line 418, D:/proj/idea/watch/sass/style.sass */
+.block .form h4 {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  display: inherit;
+  line-height: 1.6em;
+}
+/* line 427, D:/proj/idea/watch/sass/style.sass */
+.block .form h4.left {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/* line 431, D:/proj/idea/watch/sass/style.sass */
+.block .form h4 span {
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  padding-left: 27px;
+}
+
+/* line 441, D:/proj/idea/watch/sass/style.sass */
+.reviews {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 446, D:/proj/idea/watch/sass/style.sass */
+.reviews h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+/* line 453, D:/proj/idea/watch/sass/style.sass */
+.reviews .item {
+  margin-right: 40px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  border-radius: 90px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #efefef;
+  width: 480px;
+  height: 200px;
+}
+/* line 460, D:/proj/idea/watch/sass/style.sass */
+.reviews .item:last-child {
+  margin-right: 0;
+}
+/* line 462, D:/proj/idea/watch/sass/style.sass */
+.reviews .item img {
+  margin-left: 10px;
+  padding-right: 20px;
+  margin-top: 10px;
+  float: left;
+}
+/* line 467, D:/proj/idea/watch/sass/style.sass */
+.reviews .item .text {
+  width: 245px;
+  float: left;
+}
+/* line 470, D:/proj/idea/watch/sass/style.sass */
+.reviews .item .text h4 {
+  font-size: 18px;
+  color: #14648c;
+  margin-bottom: 10px;
+  margin-left: -15px;
+  font-weight: normal;
+  font-family: "Conv_PFDinTextCondPro-Regular", Sans-serif;
+}
+/* line 477, D:/proj/idea/watch/sass/style.sass */
+.reviews .item .text p {
+  font-size: 16px;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  margin: 0;
+  line-height: 1.3em;
+}
+
+/* line 484, D:/proj/idea/watch/sass/style.sass */
+.compos h3 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+/* line 492, D:/proj/idea/watch/sass/style.sass */
+.compos .compos_items {
+  background: url(../img/compos_bg.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 310px;
+}
+/* line 496, D:/proj/idea/watch/sass/style.sass */
+.compos .compos_items .items {
+  position: relative;
+  width: 650px;
+  margin: 0 auto;
+  top: 55px;
+}
+/* line 501, D:/proj/idea/watch/sass/style.sass */
+.compos .compos_items .items img {
+  float: left;
+  margin-right: 20px;
+}
+/* line 504, D:/proj/idea/watch/sass/style.sass */
+.compos .compos_items .items img:last-child {
+  margin-right: 0;
+}
+
+/* line 512, D:/proj/idea/watch/sass/style.sass */
+.work h2 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "Conv_PFDinTextCondPro-Thin", Sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 25px 0 25px;
+}
+/* line 519, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work {
+  width: 920px;
+}
+/* line 522, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
+/* line 528, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item:last-child {
+  margin-right: 0;
+}
+/* line 530, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item:first-child {
+  margin-top: -7px;
+}
+/* line 532, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item:first-child:before {
+  background: none;
+}
+/* line 535, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item:nth-child(2) {
+  margin-top: 5px;
+}
+/* line 537, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .item:before {
+  position: absolute;
+  content: "";
+  background: url(../img/arrow.png);
+  width: 20px;
+  height: 20px;
+  bottom: 70px;
+  left: -30px;
+}
+/* line 548, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .textblock {
+  width: 200px;
+  height: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 2px solid #e5e5e5;
+  font-size: 18px;
+  font-family: "Conv_pfdintextcondpro-light", Sans-serif;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: table;
+}
+/* line 560, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work .textblock .tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 563, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work img {
+  display: block;
+  margin: 0 auto 20px;
+}
+/* line 566, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work a {
+  display: block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  -moz-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  background: #bd0909;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #bd0931), color-stop(20%, #bd0909), color-stop(64.99%, #ff4b59), color-stop(100%, #f9a9bd));
+  background: -webkit-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -moz-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -o-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 60px;
+  padding-top: 17px;
+  margin-top: 20px;
+}
+/* line 582, D:/proj/idea/watch/sass/style.sass */
+.work .wrapper_work a:hover {
+  background: #ef4444;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb0606), color-stop(100%, #ef4444));
+  background: -webkit-linear-gradient(top, #cb0606, #ef4444);
+  background: -moz-linear-gradient(top, #cb0606, #ef4444);
+  background: -o-linear-gradient(top, #cb0606, #ef4444);
+  background: linear-gradient(top, #cb0606, #ef4444);
+}
+
+/* line 587, D:/proj/idea/watch/sass/style.sass */
+footer {
+  background: url(../img/footer_bg.png) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 170px;
+  position: relative;
+  margin-top: 50px;
+}
+/* line 594, D:/proj/idea/watch/sass/style.sass */
+footer nav {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 60px;
+  float: left;
+}
+/* line 597, D:/proj/idea/watch/sass/style.sass */
+footer nav ul li {
+  color: white;
+}
+/* line 599, D:/proj/idea/watch/sass/style.sass */
+footer nav ul li:last-child {
+  margin-right: 0;
+}
+/* line 605, D:/proj/idea/watch/sass/style.sass */
+footer .addr {
+  margin-top: 20px;
+  color: white;
+  padding-right: 0;
+}
+/* line 609, D:/proj/idea/watch/sass/style.sass */
+footer .addr h2 {
+  font-size: 48px;
+}
+/* line 611, D:/proj/idea/watch/sass/style.sass */
+footer .addr a {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: "Conv_pfdintextcondpro-light", Sans-serif;
+  text-align: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+/* line 622, D:/proj/idea/watch/sass/style.sass */
+footer .addr a:hover {
+  text-decoration: underline;
+}
+
+/* line 627, D:/proj/idea/watch/sass/style.sass */
+.feedback form {
+  width: 300px;
+}
+/* line 629, D:/proj/idea/watch/sass/style.sass */
+.feedback form h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+/* line 633, D:/proj/idea/watch/sass/style.sass */
+.feedback form input {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 14px;
+  width: 285px;
+  height: 45px;
+  background: white;
+  display: block;
+  margin: auto auto 10px;
+  border: 1px solid darkgrey;
+}
+/* line 642, D:/proj/idea/watch/sass/style.sass */
+.feedback form button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 285px;
+  height: 60px;
+  color: white;
+  text-shadow: 1px 2px 1px black;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  -moz-box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  box-shadow: inset 0 -4px 0 rgba(135, 10, 10, 0.8);
+  background: #bd0909;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #bd0931), color-stop(20%, #bd0909), color-stop(64.99%, #ff4b59), color-stop(100%, #f9a9bd));
+  background: -webkit-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -moz-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: -o-linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  background: linear-gradient(bottom, #bd0931 0%, #bd0909 20%, #ff4b59 64.99%, #f9a9bd 100%);
+  text-transform: uppercase;
+  display: block;
+  font-size: 26px;
+  border: none;
+  margin: 10px auto 5px;
+  -webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+}
+/* line 659, D:/proj/idea/watch/sass/style.sass */
+.feedback form button:hover {
+  background: #ef4444;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb0606), color-stop(100%, #ef4444));
+  background: -webkit-linear-gradient(top, #cb0606, #ef4444);
+  background: -moz-linear-gradient(top, #cb0606, #ef4444);
+  background: -o-linear-gradient(top, #cb0606, #ef4444);
+  background: linear-gradient(top, #cb0606, #ef4444);
+}
+
+/* line 665, D:/proj/idea/watch/sass/style.sass */
+.counter {
+  width: 285px;
+  margin: auto auto 0;
+  display: block;
+  text-align: center;
+}
+/* line 671, D:/proj/idea/watch/sass/style.sass */
+.counter p {
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  position: static;
+  font-family: "conv_segoeprintregular";
+}
+/* line 679, D:/proj/idea/watch/sass/style.sass */
+.counter ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+/* line 685, D:/proj/idea/watch/sass/style.sass */
+.counter ul li {
+  float: left;
+  margin: 0 15px;
+  text-align: center;
+}
+/* line 690, D:/proj/idea/watch/sass/style.sass */
+.counter ul li span {
+  text-shadow: 1px 1px 1px black;
+  display: block;
+  font-size: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 3px;
+  width: 60px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #1d1d1d;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f9f9f9), color-stop(50%, #d1d1d1), color-stop(50%, #e5e5e5), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(bottom, #f9f9f9 0%, #d1d1d1 50%, #e5e5e5 50%, #ffffff 100%);
+  background: -moz-linear-gradient(bottom, #f9f9f9 0%, #d1d1d1 50%, #e5e5e5 50%, #ffffff 100%);
+  background: -o-linear-gradient(bottom, #f9f9f9 0%, #d1d1d1 50%, #e5e5e5 50%, #ffffff 100%);
+  background: linear-gradient(bottom, #f9f9f9 0%, #d1d1d1 50%, #e5e5e5 50%, #ffffff 100%);
+}
